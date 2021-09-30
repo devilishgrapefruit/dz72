@@ -1,7 +1,7 @@
 package com.dz;
 
 public class Bulldog extends Dog{
-    String kind;
+    protected String kind;
     public Bulldog(int weight, String kind) {
         this.speed = "medium";
         this.size = "big";

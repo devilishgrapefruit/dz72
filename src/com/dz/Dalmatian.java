@@ -1,7 +1,7 @@
 package com.dz;
 
 public class Dalmatian extends Dog{
-    int numberofspot;
+    protected int numberofspot;
 
     public Dalmatian(int weight, int numberofspot) {
         this.speed = "high";

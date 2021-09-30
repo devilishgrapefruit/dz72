@@ -1,10 +1,10 @@
 package com.dz;
 
 public abstract class Dog {
-    String speed;
-    int weight;
-    String size;
-    String purpose = "simply";
+    protected String speed;
+    protected int weight;
+    protected String size;
+    protected String purpose = "simply";
 
 
     public String getSpeed() {

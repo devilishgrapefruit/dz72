@@ -1,7 +1,7 @@
 package com.dz;
 
 public class Pug extends Dog{
-    String color;
+    protected String color;
     public Pug(int weight, String color) {
         this.speed = "low";
         this.weight = 7;
