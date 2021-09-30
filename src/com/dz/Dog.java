@@ -1,6 +1,6 @@
 package com.dz;
 
-public class Dog {
+public abstract class Dog {
     String speed;
     int weight;
     String size;
